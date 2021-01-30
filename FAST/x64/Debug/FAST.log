@@ -1,0 +1,12 @@
+﻿  Configurator.cpp
+  FASTDecoder.cpp
+C:\Buffer\Trading\FAST\FAST\FAST\FASTDecoder.cpp(408,6): warning C4804:  >=: небезопасное использование типа "bool" в операции
+  MessageProcessor.cpp
+  UDPClient.cpp
+  Workflow.cpp
+  XMLReader.cpp
+  Создание кода...
+C:\Buffer\Trading\FAST\FAST\FAST\FASTDecoder.cpp(408,6): warning C4806:  ==: небезопасная операция: значение типа "bool", приведенное к типу "int", не может равняться данной константе
+C:\Buffer\Trading\FAST\FAST\FAST\MessageProcessor.cpp(211): warning C4715:  FeatherFAST::Message::next: значение возвращается не при всех путях выполнения
+     ╤ючфрхЄё  сшсышюЄхър C:\Buffer\Trading\FAST\FAST\x64\Debug\FAST.lib ш юс·хъЄ C:\Buffer\Trading\FAST\FAST\x64\Debug\FAST.exp
+  FAST.vcxproj -> C:\Buffer\Trading\FAST\FAST\x64\Debug\FAST.dll

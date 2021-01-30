@@ -1,0 +1,9 @@
+﻿  cl: командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  tinyxmlparser.cpp
+  tinyxmlerror.cpp
+  tinyxml.cpp
+C:\Buffer\Trading\FAST\tinyxml\tinyxml.cpp(670,71): warning C4458:  объявление "value" скрывает член класса
+  tinystr.cpp
+  Создание кода...
+C:\Buffer\Trading\FAST\tinyxml\tinyxml.h(761,15): message :   см. объявление "TiXmlNode::value"
+  tinyxml_lib.vcxproj -> C:\Buffer\Trading\FAST\tinyxml\Debugtinyxml\tinyxml.lib

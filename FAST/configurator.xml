@@ -1,0 +1,17 @@
+<config>
+	<logfile file = "log.log"></logfile>
+	<templates file = "tinyxml\\FIX50SP2-2017-Mar.xml"></templates>
+	<threads number = "2" int="11.11.11.11">
+		<first>
+			<ip name = "X-OLR-FOND">90.60.90.0</ip><src>239.0.80.1</src>
+			<ip name = "X-OLR1-FOND">90.60.90.1</ip><src>239.0.80.2</src>
+			<ip name = "D-CURR">90.60.90.1</ip><src>239.0.80.2</src>
+		</first>
+		<second>
+			<ip name = "X-OLR-FOND">90.60.90.0</ip><src>239.0.80.1</src>
+			<ip name = "X-OLR1-FOND">90.60.90.1</ip><src>239.0.80.2</src>
+			<ip name = "D-CURR">90.60.90.1</ip><src>239.0.80.2</src>
+		</second>
+	<TCP>тут что-то должно быть</TCP>
+	</threads>
+</config>

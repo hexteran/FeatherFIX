@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<configuration environment="TestFeed_next_version" updated="2018/06/04-09:00:00">
+	<channel id="CURR" label="Currency Exchange Market">
+		<connections>
+			<connection id="OLR">
+				<type feed-type="Orders Incremental">I</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.238</src-ip>
+					<ip>239.195.1.71</ip>
+					<port>16071</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.238</src-ip>		  
+					<ip>239.195.1.199</ip>
+					<port>17071</port>
+				</feed>
+			</connection>
+			<connection id="OLS">
+				<type feed-type="Orders Snapshot">S</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.238</src-ip>
+					<ip>239.195.1.72</ip>
+					<port>16072</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.238</src-ip>		  
+					<ip>239.195.1.200</ip>
+					<port>17072</port>
+				</feed>
+			</connection>
+			<connection id="TLR">
+				<type feed-type="Trades Incremental">I</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.238</src-ip>
+					<ip>239.195.1.75</ip>
+					<port>16075</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.238</src-ip>		  
+					<ip>239.195.1.203</ip>
+					<port>17075</port>
+				</feed>
+			</connection>
+			<connection id="TLS">
+				<type feed-type="Trades Snapshot">S</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.238</src-ip>
+					<ip>239.195.1.76</ip>
+					<port>16076</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.238</src-ip>		  
+					<ip>239.195.1.204</ip>
+					<port>17076</port>
+				</feed>
+			</connection>
+			<connection id="MSR">
+				<type feed-type="Statistics Incremental">I</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.238</src-ip>
+					<ip>239.195.1.77</ip>
+					<port>16077</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.238</src-ip>		  
+					<ip>239.195.1.205</ip>
+					<port>17077</port>
+				</feed>
+			</connection>
+			<connection id="MSS">
+				<type feed-type="Statistics Snapshot">S</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.238</src-ip>
+					<ip>239.195.1.78</ip>
+					<port>16078</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.238</src-ip>		  
+					<ip>239.195.1.206</ip>
+					<port>17078</port>
+				</feed>
+			</connection>
+			<connection id="IDF">
+				<type feed-type="Instrument Replay">N</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.238</src-ip>
+					<ip>239.195.1.79</ip>
+					<port>16079</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.238</src-ip>		  
+					<ip>239.195.1.207</ip>
+					<port>17079</port>
+				</feed>
+			</connection>
+			<connection id="ISF">
+				<type feed-type="Instrument Status">N</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.238</src-ip>
+					<ip>239.195.1.80</ip>
+					<port>16080</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.238</src-ip>		  
+					<ip>239.195.1.208</ip>
+					<port>17080</port>
+				</feed>
+			</connection>
+			<connection id="H">
+				<type feed-type="Historical Replay">H</type>
+				<protocol>TCP/IP</protocol>
+				<ip>91.203.253.238</ip>
+				<ip>91.203.255.238</ip>
+				<port>16014</port>
+			</connection>
+		</connections>
+	</channel>
+	<channel id="FOND" label="Stock Exchange Market">
+		<connections>
+			<connection id="OLR">
+				<type feed-type="Orders Incremental">I</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.239</src-ip>
+					<ip>239.195.1.101</ip>
+					<port>16101</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.239</src-ip>		  
+					<ip>239.195.1.229</ip>
+					<port>17101</port>
+				</feed>
+			</connection>
+			<connection id="OLS">
+				<type feed-type="Orders Snapshot">S</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.239</src-ip>
+					<ip>239.195.1.102</ip>
+					<port>16102</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.239</src-ip>		  
+					<ip>239.195.1.230</ip>
+					<port>17102</port>
+				</feed>
+			</connection>
+			<connection id="TLR">
+				<type feed-type="Trades Incremental">I</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.239</src-ip>
+					<ip>239.195.1.105</ip>
+					<port>16105</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.239</src-ip>		  
+					<ip>239.195.1.233</ip>
+					<port>17105</port>
+				</feed>
+			</connection>
+			<connection id="TLS">
+				<type feed-type="Trades Snapshot">S</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.239</src-ip>
+					<ip>239.195.1.106</ip>
+					<port>16106</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.239</src-ip>		  
+					<ip>239.195.1.234</ip>
+					<port>17106</port>
+				</feed>
+			</connection>
+			<connection id="MSR">
+				<type feed-type="Statistics Incremental">I</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.239</src-ip>
+					<ip>239.195.1.107</ip>
+					<port>16107</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.239</src-ip>		  
+					<ip>239.195.1.235</ip>
+					<port>17107</port>
+				</feed>
+			</connection>
+			<connection id="MSS">
+				<type feed-type="Statistics Snapshot">S</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.239</src-ip>
+					<ip>239.195.1.108</ip>
+					<port>16108</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.239</src-ip>		  
+					<ip>239.195.1.236</ip>
+					<port>17108</port>
+				</feed>
+			</connection>
+			<connection id="IDF">
+				<type feed-type="Instrument Replay">N</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.239</src-ip>
+					<ip>239.195.1.109</ip>
+					<port>16109</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.239</src-ip>		  
+					<ip>239.195.1.237</ip>
+					<port>17109</port>
+				</feed>
+			</connection>
+			<connection id="ISF">
+				<type feed-type="Instrument Status">N</type>
+				<protocol>UDP/IP</protocol>
+				<feed id="A">
+					<src-ip>91.203.253.239</src-ip>
+					<ip>239.195.1.110</ip>
+					<port>16110</port>
+				</feed>
+				<feed id="B">
+					<src-ip>91.203.255.239</src-ip>		  
+					<ip>239.195.1.238</ip>
+					<port>17110</port>
+				</feed>
+			</connection>
+
+			<connection id="H">
+				<type feed-type="Historical Replay">H</type>
+				<protocol>TCP/IP</protocol>
+				<ip>91.203.253.239</ip>
+				<ip>91.203.255.239</ip>
+				<port>16015</port>
+			</connection>
+		</connections>
+	</channel>
+</configuration>
