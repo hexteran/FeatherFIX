@@ -1,0 +1,305 @@
+﻿  FIX.cpp
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(27,21): warning C4251:  Instrument::Symbol: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "Instrument"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(28,22): warning C4251:  Instrument::Product: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "Instrument"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(29,22): warning C4251:  Instrument::CFICode: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "Instrument"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(30,27): warning C4251:  Instrument::SecurityType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "Instrument"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(34,20): warning C4251:  YieldData::Yield: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "YieldData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(35,24): warning C4251:  YieldData::NoPartyID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "YieldData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(36,22): warning C4251:  YieldData::PartyID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "YieldData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(37,28): warning C4251:  YieldData::PartyIDSource: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "YieldData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(38,24): warning C4251:  YieldData::PartyRole: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "YieldData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(43,25): warning C4251:  CommissionData::Commission: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "CommissionData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(44,23): warning C4251:  CommissionData::CommType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "CommissionData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(48,23): warning C4251:  OrderQtyData::OrderQty: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderQtyData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(49,27): warning C4251:  OrderQtyData::CashOrderQty: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderQtyData"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(53,33): warning C4251:  TrdRegTimestamps::NoTrdRegTimestamps: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "TrdRegTimestamps"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(54,30): warning C4251:  TrdRegTimestamps::TrdRegTimestamp: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "TrdRegTimestamps"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(55,34): warning C4251:  TrdRegTimestamps::TrdRegTimestampType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "TrdRegTimestamps"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(59,24): warning C4251:  FinancialDetails::StartDate: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "FinancialDetails"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(60,22): warning C4251:  FinancialDetails::EndDate: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "FinancialDetails"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(61,27): warning C4251:  FinancialDetails::DeliveryType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "FinancialDetails"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(65,31): warning C4251:  UnderlyingInstrument::UnderlyingSymbol: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "UnderlyingInstrument"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(69,32): warning C4251:  UnderlyingStipulations::NoUnderlyingStips: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "UnderlyingStipulations"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(70,33): warning C4251:  UnderlyingStipulations::UnderlyingStipType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "UnderlyingStipulations"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(71,34): warning C4251:  UnderlyingStipulations::UnderlyingStipValue: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "UnderlyingStipulations"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(75,24): warning C4251:  Parties::NoPartyID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "Parties"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(76,22): warning C4251:  Parties::PartyID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "Parties"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(77,28): warning C4251:  Parties::PartyIDSource: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "Parties"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(78,24): warning C4251:  Parties::PartyRole: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "Parties"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(82,25): warning C4251:  ResendReq::BeginSecNo: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "ResendReq"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(83,23): warning C4251:  ResendReq::EndSecNo: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "ResendReq"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(87,22): warning C4251:  NewOrder_sngl::ClOrdID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(89,22): warning C4251:  NewOrder_sngl::Account: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(90,23): warning C4251:  NewOrder_sngl::MaxFloor: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(91,31): warning C4251:  NewOrder_sngl::SecondaryClOrdID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(92,32): warning C4251:  NewOrder_sngl::NoTradingSessions: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(93,31): warning C4251:  NewOrder_sngl::TradingSessionID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(95,19): warning C4251:  NewOrder_sngl::Side: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(96,27): warning C4251:  NewOrder_sngl::TransactTime: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(98,22): warning C4251:  NewOrder_sngl::OrdType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(99,24): warning C4251:  NewOrder_sngl::PriceType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(100,20): warning C4251:  NewOrder_sngl::Price: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(101,28): warning C4251:  NewOrder_sngl::TradeThruTime: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(102,26): warning C4251:  NewOrder_sngl::TimeInForce: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(103,28): warning C4251:  NewOrder_sngl::EffectiveTime: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(104,28): warning C4251:  NewOrder_sngl::OrderCapacity: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(105,32): warning C4251:  NewOrder_sngl::OrderRestrictions: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(106,29): warning C4251:  NewOrder_sngl::MaxPriceLevels: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "NewOrder_sngl"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(111,26): warning C4251:  OrderCancel::OrigClOrdID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderCancel"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(112,22): warning C4251:  OrderCancel::OrderID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderCancel"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(113,22): warning C4251:  OrderCancel::ClOrdID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderCancel"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(114,19): warning C4251:  OrderCancel::Side: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderCancel"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(115,27): warning C4251:  OrderCancel::TransactTime: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderCancel"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(119,22): warning C4251:  OrderTable::ClOrdID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(120,21): warning C4251:  OrderTable::Status: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(121,23): warning C4251:  OrderTable::ExecType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(122,31): warning C4251:  OrderTable::WorkingIndicator: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(123,22): warning C4251:  OrderTable::OrdType: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(124,19): warning C4251:  OrderTable::Side: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(125,20): warning C4251:  OrderTable::Price: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(126,24): warning C4251:  OrderTable::LeavesQty: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(127,21): warning C4251:  OrderTable::CumQty: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(129,22): warning C4251:  OrderTable::LastQty: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(130,24): warning C4251:  OrderTable::LastPrice: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(131,31): warning C4251:  OrderTable::TradingSessionID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(132,19): warning C4251:  OrderTable::Time: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(133,21): warning C4251:  OrderTable::SeqNum: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "OrderTable"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(138,22): warning C4251:  RejectedRequest::OrderID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "RejectedRequest"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(139,24): warning C4251:  RejectedRequest::OrdStatus: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "RejectedRequest"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(140,31): warning C4251:  RejectedRequest::CxlRejResponseTo: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "RejectedRequest"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(141,19): warning C4251:  RejectedRequest::Text: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "RejectedRequest"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(142,21): warning C4251:  RejectedRequest::CxlQty: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "RejectedRequest"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(143,19): warning C4251:  RejectedRequest::Time: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "RejectedRequest"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(144,21): warning C4251:  RejectedRequest::SeqNum: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "RejectedRequest"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(145,16): warning C4251:  RejectedRequest::ClOrdID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами struct "RejectedRequest"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(191,16): warning C4251:  SystemVariablesProcessor::LOGNAME: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "SystemVariablesProcessor"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(192,18): warning C4251:  SystemVariablesProcessor::LOGGING: class "std::basic_ofstream<char,std::char_traits<char>>" должен иметь dll-интерфейс для использования клиентами class "SystemVariablesProcessor"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\iosfwd(224): message :   см. объявление "std::basic_ofstream<char,std::char_traits<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210,27): warning C4251:  MessageFormatter::Heads: class "std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "MessageFormatter"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210,27): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210,27): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210,27): warning C4251:             _Kty=std::string,
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210,27): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210,27): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210): message :   см. объявление "std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210): message :             _Kty=std::string,
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(210): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(211,21): warning C4251:  MessageFormatter::SenderCompID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "MessageFormatter"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(211,35): warning C4251:  MessageFormatter::TargetCompID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "MessageFormatter"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(288,15): warning C4251:  FIX44::TCP: class "TCPClient" должен иметь dll-интерфейс для использования клиентами class "FIX44"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(196): message :   см. объявление "TCPClient"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(290,21): warning C4251:  FIX44::Out: class "OutputProcessor" должен иметь dll-интерфейс для использования клиентами class "FIX44"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(225): message :   см. объявление "OutputProcessor"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(291,19): warning C4251:  FIX44::In: class "InputProcessor" должен иметь dll-интерфейс для использования клиентами class "FIX44"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(268): message :   см. объявление "InputProcessor"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(292,17): warning C4251:  FIX44::Listener: class "std::thread" должен иметь dll-интерфейс для использования клиентами class "FIX44"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\thread(24): message :   см. объявление "std::thread"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(293,23): warning C4251:  FIX44::InputContainer: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIX44"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(295,21): warning C4251:  FIX44::OrdMan: class "OrderManager" должен иметь dll-интерфейс для использования клиентами class "FIX44"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(169): message :   см. объявление "OrderManager"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314,19): warning C4251:  command_container::ID: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314,19): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314,19): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314,19): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314,19): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(315,24): warning C4251:  command_container::SECCODE: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(315,24): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(315,24): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(315,24): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(315,24): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(316,25): warning C4251:  command_container::SECBOARD: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(316,25): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(316,25): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(316,25): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(316,25): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(317,21): warning C4251:  command_container::Side: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(317,21): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(317,21): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(317,21): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(317,21): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(318,20): warning C4251:  command_container::Qty: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(318,20): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(318,20): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(318,20): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(318,20): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(319,24): warning C4251:  command_container::OrdType: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(319,24): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(319,24): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(319,24): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(319,24): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(320,22): warning C4251:  command_container::Price: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(320,22): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(320,22): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(320,22): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(320,22): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(321,21): warning C4251:  command_container::Type: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(321,21): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(321,21): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(321,21): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(321,21): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(322,28): warning C4251:  command_container::OrigClOrdID: class "std::vector<std::string,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(322,28): warning C4251:         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(322,28): warning C4251:         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(322,28): warning C4251:             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(322,28): warning C4251:         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :   см. объявление "std::vector<std::string,std::allocator<_Ty>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         with
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         [
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :             _Ty=std::string
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(314): message :         ]
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(323,13): warning C4251:  command_container::Mutex: class "std::mutex" должен иметь dll-интерфейс для использования клиентами class "command_container"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\mutex(82): message :   см. объявление "std::mutex"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(343,15): warning C4251:  FIXinterface::ScomID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIXinterface"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(343,23): warning C4251:  FIXinterface::TcomID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIXinterface"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(343,29): warning C4251:  FIXinterface::Addr: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIXinterface"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(343,35): warning C4251:  FIXinterface::Port: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIXinterface"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(343,41): warning C4251:  FIXinterface::Pass: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIXinterface"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(343,50): warning C4251:  FIXinterface::Account: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIXinterface"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(343,59): warning C4251:  FIXinterface::NewPass: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIXinterface"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.h(343,67): warning C4251:  FIXinterface::LangID: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "FIXinterface"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(118,1): error C4996:  'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h(506): message :   см. объявление "localtime"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(429,1): error C4996:  'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h(506): message :   см. объявление "localtime"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(545,1): error C4996:  'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h(506): message :   см. объявление "localtime"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(594,27): warning C4267:  инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(644,12): warning C4305:  return: усечение из "int" в "bool"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(655,12): warning C4305:  return: усечение из "int" в "bool"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(662,12): warning C4305:  return: усечение из "int" в "bool"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(671,12): warning C4305:  return: усечение из "int" в "bool"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(694,1): error C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message :   см. объявление "strcpy"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(705,1): error C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message :   см. объявление "strcpy"
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(878,29): warning C4267:  инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(932,65): warning C4267:  аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Buffer\Trading\FAST\FAST\FIX\FIX.cpp(1062,23): warning C4267:  инициализация: преобразование из "size_t" в "int"; возможна потеря данных

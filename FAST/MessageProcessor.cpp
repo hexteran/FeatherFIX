@@ -208,6 +208,7 @@ bool FeatherFAST::Message::next()
 		iv += sizeof(decimal_value);
 		return true;
 	}
+	return false;
 }
 
 int FeatherFAST::Message::type()
@@ -243,6 +244,18 @@ void FeatherFAST::Message::add_field(char* field, int id, int type)
 	if (mes.length >= OUTPUT_MAX_SIZE) throw MESSAGE_BUFFER_OVERFLOW;
 	mes.types[mes.length] = type;
 	mes.ids[mes.length] = id;
+	mes.length++;
+	if (type & (STRING | CONSTANT))
+	{
+		strcpy(&mes.values[i_len], field);
+		i_len += strlen(field) + 1;
+		return;
+	};
+	if (type & (FAST_DECIMAL))
+	{
+		*(decimal_value*)& mes.values[i_len] = *(decimal_value*)field;
+		i_len += sizeof(decimal_value);
+	};
 	if (type & (Int32|uInt32))
 	{
 		*(int*)&mes.values[i_len] = *(int*) field;
@@ -252,11 +265,6 @@ void FeatherFAST::Message::add_field(char* field, int id, int type)
 	{
 		*(long long*)& mes.values[i_len] = *(long long*) field;
 		i_len += 8;
-	};
-	if (type & (STRING | CONSTANT))
-	{
-		strcpy(&mes.values[i_len], field);
-		i_len += strlen(field)+1;
 	};
 	if (type & BYTE_VECTOR); //добавить поддержку BYTE_VECTOR
 

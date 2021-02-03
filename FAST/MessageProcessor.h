@@ -37,9 +37,9 @@ namespace FeatherFAST {
 		int exponent;
 		long long mantissa;
 	};
-	struct Template
+	struct __declspec(dllexport) Template
 	{
-		int tid;
+		int tid = EMPTY_TEMPLATE;
 		int* temp;
 		char* defaults[TEMPLATESIZE];
 		char* constants[TEMPLATESIZE];
@@ -55,7 +55,7 @@ namespace FeatherFAST {
 		char values[OUTPUT_MAX_SIZE*10];
 		int types[OUTPUT_MAX_SIZE];
 		int ids[OUTPUT_MAX_SIZE];
-		int length;
+		int length = 0;
 		int seqnum;
 	};
 	struct __declspec(dllexport) Container
@@ -65,8 +65,8 @@ namespace FeatherFAST {
 		int ids[OUTPUT_MAX_SIZE];
 		int length=0;
 		int val_length=0;
-		int seqnum;
-		int tid;
+		int seqnum = 0;
+		int tid = EMPTY_TEMPLATE;
 	};
 	struct __declspec(dllexport) inPut
 	{
@@ -93,7 +93,7 @@ namespace FeatherFAST {
 		int get_id();
 		void set_id(int id);
 	};
-	class Message { //закончить позже
+	class __declspec(dllexport) Message { //закончить позже
 	private:
 		const char seqend[7], seqbeg[7];
 		Container mes;
@@ -103,6 +103,7 @@ namespace FeatherFAST {
 		void move_v(int space);
 	public:
 		Message(Container m): mes(m), it(0), iv(0), seqend("SEQEND"), seqbeg("SEQBEG") {};//перетащить в src
+		Message() : it(0), iv(0), seqend("SEQEND"), seqbeg("SEQBEG"), i_len(0) {};
 		bool is_end();
 		bool is_beg();
 		int field_id();

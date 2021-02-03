@@ -129,6 +129,9 @@
     <ClCompile Include="..\FAST\tinyxml\tinyxml.cpp" />
     <ClCompile Include="..\FAST\tinyxml\tinyxmlerror.cpp" />
     <ClCompile Include="..\FAST\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\FIX\FIXDecoder.cpp" />
+    <ClCompile Include="..\FIX\FIXEncoder.cpp" />
+    <ClCompile Include="..\FIX\TCPClient.cpp" />
     <ClCompile Include="int_processing_test.h" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="xmlreader_2115.cpp" />
@@ -141,7 +144,11 @@
   <ItemGroup>
     <ClInclude Include="..\FAST\tinyxml\tinystr.h" />
     <ClInclude Include="..\FAST\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\FIX\FIXDecoder.h" />
+    <ClInclude Include="..\FIX\FIXEncoder.h" />
+    <ClInclude Include="..\FIX\TCPClient.h" />
     <ClInclude Include="decoder_test.h" />
+    <ClInclude Include="fix_decoder_test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

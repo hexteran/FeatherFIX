@@ -319,6 +319,15 @@ void TemplateManager::load_new_temp(int tid)
 	
 }
 
+FeatherFAST::TemplateManager::TemplateManager(XMLReader& reader):
+allfields_inner(reader.GetTemplates()), allfields(allfields_inner),
+allconstants_inner(reader.GetConstants()), allconstants(allconstants_inner),
+alldefaults_inner(reader.GetDefaults()), alldefaults(alldefaults_inner),
+allids_inner(reader.GetFieldIds()), allids(allids_inner)
+{
+	short_constructor = true;
+}
+
 TemplateManager::TemplateManager(map<int, vector<int>>& fields, map<int, vector<int>>& ids,
 	map<int, vector<string>>& defaults, map<int, vector<string>>& constants):
 	allfields(fields),

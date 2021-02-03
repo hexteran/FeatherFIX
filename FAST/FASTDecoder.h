@@ -29,9 +29,15 @@ namespace FeatherFAST {
 
 	class __declspec(dllexport) TemplateManager
 	{
-	public:
 	private:
+		bool short_constructor = false;
 		Template cache[3];
+		//такой вот костыль
+		map<int, vector<int>> allfields_inner;
+		map<int, vector<int>> allids_inner;
+		map<int, vector<string>> alldefaults_inner;
+		map<int, vector<string>> allconstants_inner;
+
 		map<int, vector<int>>& allfields;
 		map<int, vector<int>>& allids;
 		map<int, vector<string>>& alldefaults;
@@ -39,8 +45,8 @@ namespace FeatherFAST {
 		int first, second, third;
 	public:
 		void load_new_temp(int tid);
-		TemplateManager(map<int, vector<int>>& fields, map<int, vector<int>>& ids, map<int, vector<string>>& defaults, map<int, vector<string>>& constants);
 		TemplateManager(XMLReader& reader);
+		TemplateManager(map<int, vector<int>>& fields, map<int, vector<int>>& ids, map<int, vector<string>>& defaults, map<int, vector<string>>& constants);
 		void Init(map<int, vector<int>>& fields, map<int, vector<int>>& ids, map<int, vector<string>>& defaults, map<int, vector<string>>& constants);
 		Template* pull_template(int tid);
 	};

@@ -704,7 +704,6 @@ int TCPClient::Receive(PCSTR output, string& input) {
 	//cout << received<<endl<<endl;
 	strcpy((char*)output, received);
 	return Result;
-
 }
 
 map <string, string> InputProcessor::Parsing()
