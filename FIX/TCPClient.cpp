@@ -1,5 +1,5 @@
 #include "TCPClient.h"
-
+#include <iostream>
 bool FeatherFIX::TCPClient::Connect(PCSTR Addr, PCSTR Port)
 {
 	int Result = WSAStartup(MAKEWORD(2, 2), &wsDATA);
@@ -45,12 +45,13 @@ int FeatherFIX::TCPClient::Send(PCSTR message, int len) {
 }
 int FeatherFIX::TCPClient::Receive(char* input, int buflen = 1048576) {
 	int Result = 0;
-	Result = recv(sock, input, 1048576, 0);
+	Result = recv(sock, input, buflen, 0);
 	int LastError = WSAGetLastError();
 	if (LastError != 0) {
 		throw 6;
 		return -1;
 	}
 	input[Result] = 0;
+	std::cout <<input;
 	return Result;
 }

@@ -333,3 +333,32 @@ bool FeatherFAST::Message::is_beg()
 {
 	return it==0;
 }
+
+bool FeatherFAST::Message::is_empty()
+{
+	return i_len==0;
+}
+
+char* FeatherFAST::Message::find(int id)
+{
+	int t = it;
+	int v = iv;
+	while (!(is_end()))
+	{
+		if (field_id() == id)
+		{
+			return value();
+		}
+		next();
+	};
+	iv = 0;
+	for (it = 0; it < t; next())
+	{
+		if (field_id() == id)
+		{
+			return value();
+		}
+		next();
+	}
+	return nullptr;
+}

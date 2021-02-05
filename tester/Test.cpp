@@ -2,12 +2,24 @@
 //#include <ctime>
 #pragma once
 #include <iostream>
+#include "..\\FIX\FIXDecoder.h"
 #include "..\\FIX\FIXEncoder.h"
 #include "..\\FAST\XMLReader.h"
+#include "..\\FIX\TCPClient.h"
+#include "..\\FIX\SystemMessageProcessor.h"
 //#include "..\\FIX\FIX.h"
 #include "fix_decoder_test.h"
+#include <ctime>
+#include <chrono>
 
-
+class except
+{
+private:
+	string error;
+public:
+	except(string& num) : error(num) {};
+	string& ret() { return error; };
+};
 int main() {
 /*	std::cout << m1;
 	FIXDecoder fx;
@@ -33,7 +45,7 @@ int main() {
 		
 		Result.next();
 	}*/
-	FIXEncoder fxenc("AAA", "BBB"); 
+	/*FIXEncoder fxenc("AAA", "BBB"); 
 	FeatherFAST::Message mess;
 	long long current_time = 0;
 	mess.add_field((char*)"0", 98, STRING);
@@ -41,5 +53,27 @@ int main() {
 	cout<<fxenc.Process(mess, 1, "A", current_time, 0, false, false);
 	/*MessageFormatter Form;
 	cout<<Form.Logon("AAA", 0, "10", "Y", "", "E");*/
+
+	FIXEncoder enc("IFIX-EQ-UAT","MU9043800002");
+	FeatherFAST::Message msg;
+	int l = 0;
+	msg.add_field((char*)&l,98,Int32);
+	msg.add_field((char*)"2", 108, STRING);
+	msg.add_field((char*)"4068", 554, STRING);
+	time_t t = time(NULL) - 60*60*4;
+	string logon_mes = enc.Process(msg, 0, "A", t, 0, false, false);
+	cout << logon_mes;
+	FIXDecoder decoder;
+	FeatherFAST::Message deciphered = decoder.Process((char*)logon_mes.c_str(), logon_mes.length());
+	//FeatherFIX::TCPClient cli;
+	int Seqnum = 0;
+	FeatherFIX::SystemMessageProcessor proc(Seqnum);
+	FeatherFAST::Message m = proc.Process(deciphered);
+
+/*	cli.Connect("91.208.232.200", "9130");
+	cli.Send(logon_mes.c_str(), logon_mes.length());
+	char buffer[148888];
+	while(true)
+		cli.Receive(buffer, 148888);*/
 	return 0;
 }

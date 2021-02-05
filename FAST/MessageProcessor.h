@@ -75,7 +75,7 @@ namespace FeatherFAST {
 		char* message;
 		char* pmap;
 	};
-	template <typename T> class Field
+	template <typename T> class Field //удалить
 	{
 	private:
 		int _id, _flags;
@@ -98,14 +98,13 @@ namespace FeatherFAST {
 		const char seqend[7], seqbeg[7];
 		Container mes;
 		int it, iv, i_len;
-		void move_id();
-		void move_t();
-		void move_v(int space);
 	public:
 		Message(Container m): mes(m), it(0), iv(0), seqend("SEQEND"), seqbeg("SEQBEG") {};//перетащить в src
 		Message() : it(0), iv(0), seqend("SEQEND"), seqbeg("SEQBEG"), i_len(0) {};
 		bool is_end();
 		bool is_beg();
+		bool is_empty();
+		char* find(int id);
 		int field_id();
 		int type();
 		char* value();

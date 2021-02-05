@@ -1,1 +1,12 @@
-﻿  tester.vcxproj -> C:\Buffer\Trading\FAST\FAST\x64\Debug\tester.exe
+﻿  SystemMessageProcessor.cpp
+  Test.cpp
+  Создание кода...
+C:\Buffer\Trading\FAST\FAST\FIX\SystemMessageProcessor.cpp(28): warning C4172:  возвращение адреса локальной или временной переменной : mess
+C:\Buffer\Trading\FAST\FAST\FIX\SystemMessageProcessor.cpp(21): warning C4715:  FeatherFIX::SystemMessageProcessor::Process: значение возвращается не при всех путях выполнения
+C:\Buffer\Trading\FAST\FAST\FIX\SystemMessageProcessor.cpp(40): warning C4172:  возвращение адреса локальной или временной переменной : mess
+C:\Buffer\Trading\FAST\FAST\FIX\SystemMessageProcessor.cpp(46): warning C4172:  возвращение адреса локальной или временной переменной : mess
+C:\Buffer\Trading\FAST\FAST\FIX\SystemMessageProcessor.cpp(34): warning C4172:  возвращение адреса локальной или временной переменной : mess
+C:\Buffer\Trading\FAST\FAST\FIX\SystemMessageProcessor.cpp(52): warning C4172:  возвращение адреса локальной или временной переменной : mess
+C:\Buffer\Trading\FAST\FAST\FIX\SystemMessageProcessor.cpp(58): warning C4172:  возвращение адреса локальной или временной переменной : mess
+C:\Buffer\Trading\FAST\FAST\FIX\SystemMessageProcessor.cpp(65): warning C4172:  возвращение адреса локальной или временной переменной : mess
+  tester.vcxproj -> C:\Buffer\Trading\FAST\FAST\x64\Debug\tester.exe
