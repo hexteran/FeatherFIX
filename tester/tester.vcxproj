@@ -131,6 +131,7 @@
     <ClCompile Include="..\FAST\tinyxml\tinyxmlparser.cpp" />
     <ClCompile Include="..\FIX\FIXDecoder.cpp" />
     <ClCompile Include="..\FIX\FIXEncoder.cpp" />
+    <ClCompile Include="..\FIX\Session.cpp" />
     <ClCompile Include="..\FIX\SystemMessageProcessor.cpp" />
     <ClCompile Include="..\FIX\TCPClient.cpp" />
     <ClCompile Include="int_processing_test.h" />
@@ -147,6 +148,7 @@
     <ClInclude Include="..\FAST\tinyxml\tinyxml.h" />
     <ClInclude Include="..\FIX\FIXDecoder.h" />
     <ClInclude Include="..\FIX\FIXEncoder.h" />
+    <ClInclude Include="..\FIX\Session.h" />
     <ClInclude Include="..\FIX\SystemMessageProcessor.h" />
     <ClInclude Include="..\FIX\TCPClient.h" />
     <ClInclude Include="decoder_test.h" />

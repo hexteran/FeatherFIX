@@ -51,6 +51,9 @@
     <ClCompile Include="..\FIX\SystemMessageProcessor.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="..\FIX\Session.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\FAST\tinyxml\tinystr.h">
@@ -75,6 +78,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="..\FIX\SystemMessageProcessor.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FIX\Session.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

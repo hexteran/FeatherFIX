@@ -1,0 +1,8 @@
+﻿  Test.cpp
+     Создается библиотека C:\Buffer\Trading\FAST\FAST\x64\Release\tester.lib и объект C:\Buffer\Trading\FAST\FAST\x64\Release\tester.exp
+  Создание кода
+  2 of 663 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  tester.vcxproj -> C:\Buffer\Trading\FAST\FAST\x64\Release\tester.exe

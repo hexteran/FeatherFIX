@@ -43,7 +43,7 @@ int FeatherFIX::TCPClient::Send(PCSTR message, int len) {
 	}
 	return Result;
 }
-int FeatherFIX::TCPClient::Receive(char* input, int buflen = 1048576) {
+int FeatherFIX::TCPClient::Receive(char* input, int buflen = 10485) {
 	int Result = 0;
 	Result = recv(sock, input, buflen, 0);
 	int LastError = WSAGetLastError();
@@ -52,6 +52,6 @@ int FeatherFIX::TCPClient::Receive(char* input, int buflen = 1048576) {
 		return -1;
 	}
 	input[Result] = 0;
-	std::cout <<input;
+	std::cout <<"INPUT::"<<input <<endl;
 	return Result;
 }
